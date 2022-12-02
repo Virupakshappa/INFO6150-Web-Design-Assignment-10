@@ -28,7 +28,7 @@ function WeatherContainer() {
     ));
   }
   function refreshData() {
-    const _url = `http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&APPID=`;
+    const _url = `http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=imperial&APPID=9981d1499d00835c5b72b58f4fcbfb75`;
     fetch(_url)
       .then((res) => res.json())
       .then((data) => {
